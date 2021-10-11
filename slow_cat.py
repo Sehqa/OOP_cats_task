@@ -11,7 +11,7 @@ class SlowCat(Cat):
         self._color = color
 
     def _meow(self):
-        print('meeoow')
+        print(self.meow_message)
 
     def run(self):
         print('Slow cat run')

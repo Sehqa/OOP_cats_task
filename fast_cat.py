@@ -11,7 +11,7 @@ class FastCat(Cat):
         self._color = color
 
     def _meow(self):
-        print('meow')
+        print(self.meow_message)
 
     def jump(self):
         print('Fast cats are afraid to jump')
