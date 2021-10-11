@@ -7,7 +7,6 @@ class SlowCat(Cat):
     _color = ''
 
     def __init__(self, color):
-        self._speed = SlowCat._speed
         self._color = color
 
     def _meow(self):
